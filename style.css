@@ -28,16 +28,19 @@ nav {
 #about {
     padding-top: 85px;
     display: flex;
+    align-items: center;
 }
 #about img {
-    max-height:500px;
+    max-height: 500px;
     border-radius: 100%;
+    margin: 5px;
 }
 #about h2 {
     text-align: center;
 }
 #desc {
     background-color: #006c00;
+    height: 500px;
 }
 #projects {
     display: grid;
