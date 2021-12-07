@@ -1,6 +1,18 @@
 html {
     background-color: #6ecdfa
 }
+header {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 #about img {
 max-height:500px;
 border-radius: 100%;
