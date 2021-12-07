@@ -1,3 +1,7 @@
 html {
-    background-color: #6ebefa;
+    background-color: #6ecdfa
+}
+#about img {
+max-height:500px;
+border-radius: 100%;
 }
