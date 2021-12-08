@@ -64,7 +64,7 @@ nav {
     grid-area: 1 / 1 / 2 / 4;
     text-align: center;
     font-size: 30px;
-    font-family: georgia;
+    font-family: 'permanent marker', georgia;
 }
 #proj_one {
     grid-area: 2 / 1 / 4 / 2;
