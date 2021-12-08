@@ -77,6 +77,9 @@ nav {
 ul {
     font-size: 20px;
 }
+li {
+    margin-bottom: 10px;
+}
 footer {
     display: grid;
     grid-template-columns: 80% 20%;
