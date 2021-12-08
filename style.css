@@ -51,6 +51,7 @@ nav {
     column-gap: 50px;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 25px;
 }
 #projects h2 {
     grid-area: 1 / 1 / 2 / 4;
