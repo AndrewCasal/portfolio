@@ -91,13 +91,15 @@ ul {
 li {
     margin-bottom: 10px;
 }
-form {
-    display: grid;
-    grid-template-rows: repeat(5, 25px);
-    justify-content: center;
+#coninfo {
     width: 700px;
     padding-top: 80px;
     background-color: #ff7200;
+    display: grid;
+    justify-content: center;
+}
+form {
+
 }
 footer {
     display: grid;
