@@ -91,6 +91,14 @@ ul {
 li {
     margin-bottom: 10px;
 }
+form {
+    display: grid;
+    grid-template-rows: repeat(5, 25px);
+    justify-content: center;
+    width: 700px;
+    padding-top: 80px;
+    background-color: #ff7200;
+}
 footer {
     display: grid;
     grid-template-columns: 80% 20%;
