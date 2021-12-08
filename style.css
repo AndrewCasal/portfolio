@@ -46,7 +46,6 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 20px 20px 300px;
-    justify-items: center;
     justify-content: center;
 }
 #projects h2 {
@@ -60,6 +59,9 @@ nav {
 }
 #proj_three {
     grid-area: 2 / 3 / 4 / 4;
+}
+#proj_one, #proj_two, #proj_three {
+    background-color: #ff00f2;
 }
 footer {
     display: grid;
