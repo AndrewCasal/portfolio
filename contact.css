@@ -1,5 +1,7 @@
-html {
+html, body {
     background-color: #6ecdfa;
+    margin: 0;
+    padding: 0;
 }
 header {
     display: grid;
