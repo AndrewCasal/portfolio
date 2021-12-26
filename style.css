@@ -97,9 +97,9 @@ li {
     background-color: #ff7200;
     display: grid;
     justify-content: center;
+    font-family: 'josefin sans'
 }
 form {
-
 }
 footer {
     display: grid;
