@@ -43,6 +43,8 @@ footer {
     height: 75px;
     background-color: #ff0000;
     border-top: 3px solid black;
+    position: absolute;
+    bottom: 0;
 }
 footer h1 {
     padding-left: 5px;
