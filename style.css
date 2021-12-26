@@ -91,16 +91,6 @@ ul {
 li {
     margin-bottom: 10px;
 }
-#coninfo {
-    width: 700px;
-    padding-top: 80px;
-    background-color: #ff7200;
-    display: grid;
-    justify-content: center;
-    font-family: 'josefin sans'
-}
-form {
-}
 footer {
     display: grid;
     grid-template-columns: 80% 20%;
