@@ -17,7 +17,7 @@ header {
 header h1 {
     padding-left: 5px;
     font-family: georgia;
-    font-size: 40px;
+    font-size: 50px;
 }
 nav {
     display: flex;
@@ -52,5 +52,5 @@ footer {
 footer h1 {
     padding-left: 5px;
     font-family: georgia;
-    font-size: 40px;
+    font-size: 50px;
 }
