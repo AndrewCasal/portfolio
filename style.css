@@ -34,6 +34,11 @@ h2 {
     text-align: center;
     text-decoration: underline;
 }
+h3 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
 #about {
     padding-top: 85px;
     display: flex;
@@ -81,10 +86,6 @@ h2 {
 #proj_one, #proj_two, #proj_three {
     background-color: #ff00f2;
     border: 2px dashed black;
-}
-#proj_one h3, #proj_two h3, #proj_three h3 {
-    text-align: center;
-    font-size: 25px;
 }
 ul {
     font-size: 30px;
