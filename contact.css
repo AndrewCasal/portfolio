@@ -31,7 +31,7 @@ nav {
 }
 #coninfo {
     width: 100%;
-    padding-top: 80px;
+    padding-top: 300px;
     display: flex;
     justify-content: center;
     font-family: 'josefin sans', arial;
@@ -39,6 +39,7 @@ nav {
 #form_cont {
     background-color: #ff7200;
     border: 2px dashed black;
+    width: 700px;
 }
 #form_cont h2 {
     font-size: 35px;
