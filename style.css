@@ -36,6 +36,7 @@ nav {
 #desc {
     background-color: #006c00;
     height: 500px;
+    margin-right: 10px;
 }
 #about img {
     max-height: 500px;
