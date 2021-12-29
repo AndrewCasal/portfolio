@@ -30,16 +30,22 @@ nav {
     padding-right: 5px;
 }
 #coninfo {
-    width: 700px;
+    width: 100%;
     padding-top: 80px;
-    background-color: #ff7200;
     display: grid;
-    grid-template: 100px 200px 100px / 50px 600px 50px;
+    grid-template: 1fr 2fr 1fr / 1fr 12fr 1fr;
+    align-content: center;
+    align-items: center;
     justify-content: center;
+    justify-items: center;
     font-family: 'josefin sans'
 }
 #form_cont {
     grid-area: 2 / 2 / 3 / 3;
+    background-color: #ff7200;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
 }
 form {
 }
