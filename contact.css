@@ -31,6 +31,7 @@ nav {
 }
 #coninfo {
     width: 100%;
+    height: 100%;
     padding-top: 80px;
     display: grid;
     grid-template: 1fr 2fr 1fr / 1fr 12fr 1fr;
@@ -45,8 +46,10 @@ nav {
     align-content: center;
     align-items: center;
     justify-items: center;
+    border: 2px dashed black;
 }
 form {
+    margin: 25px;
 }
 footer {
     display: grid;
