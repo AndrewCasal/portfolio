@@ -38,15 +38,17 @@ nav {
     align-content: center;
     align-items: center;
     justify-content: center;
-    font-family: 'josefin sans'
+    font-family: 'josefin sans', arial;
 }
 #form_cont {
     grid-area: 2 / 2 / 3 / 3;
     background-color: #ff7200;
     align-content: center;
     align-items: center;
-    justify-items: center;
     border: 2px dashed black;
+}
+#form_cont h2 {
+    font-size: 35px;
 }
 form {
     margin: 25px;
