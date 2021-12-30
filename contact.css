@@ -58,6 +58,7 @@ label {
     align-self: center;
     margin-top: 10px;
     font-size: 15px;
+    font-weight: bold;
 }
 footer {
     display: grid;
