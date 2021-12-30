@@ -40,9 +40,6 @@ nav {
     background-color: #ff7200;
     border: 2px dashed black;
     width: 700px;
-    display: flex;
-    align-content: center;
-    justify-Content: center;
 }
 #form_cont h2 {
     font-size: 35px;
