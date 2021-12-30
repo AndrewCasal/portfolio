@@ -55,7 +55,7 @@ h3 {
     background-color: #333;
     display: flex;
     align-items: center;
-    border: 2px dashed black;
+    border: 2px solid black;
 }
 #desc {
     background-color: #ccc;
@@ -98,7 +98,7 @@ h3 {
 }
 #proj_one, #proj_two, #proj_three {
     background-color: #666;
-    border: 2px dashed black;
+    border: 2px solid black;
 }
 ul {
     font-size: 30px;

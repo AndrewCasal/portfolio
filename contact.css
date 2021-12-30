@@ -41,7 +41,7 @@ a:link {
 }
 #form_cont {
     background-color: #666;
-    border: 2px dashed black;
+    border: 2px solid black;
     width: 700px;
 }
 #form_cont h2 {
