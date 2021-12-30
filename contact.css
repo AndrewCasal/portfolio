@@ -29,6 +29,9 @@ nav {
     font-size: 30px;
     padding-right: 5px;
 }
+a:link {
+    color: #333;
+}
 #coninfo {
     width: 100%;
     padding-top: 300px;
