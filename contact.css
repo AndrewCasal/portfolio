@@ -57,6 +57,7 @@ label {
 #button {
     align-self: center;
     margin-top: 10px;
+    font-size: 15px;
 }
 footer {
     display: grid;
