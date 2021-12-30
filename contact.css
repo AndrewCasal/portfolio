@@ -17,14 +17,14 @@ header {
 }
 header h1 {
     padding-left: 5px;
-    font-family: georgia;
+    font-family: 'titillium web', georgia;
     font-size: 50px;
 }
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'josefin sans', tahoma;
+    font-family: 'montserrat', tahoma;
     font-weight: bold;
     font-size: 30px;
     padding-right: 5px;
@@ -34,7 +34,7 @@ nav {
     padding-top: 300px;
     display: flex;
     justify-content: center;
-    font-family: 'josefin sans', arial;
+    font-family: 'montserrat', arial;
 }
 #form_cont {
     background-color: #ff7200;
@@ -73,6 +73,6 @@ footer {
 }
 footer h1 {
     padding-left: 5px;
-    font-family: georgia;
+    font-family: 'titillium web', georgia;
     font-size: 50px;
 }
