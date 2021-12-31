@@ -18,10 +18,10 @@ function generate (){
 element.onclick = generate();
 
 function charImage (){
-    let imgChar = document.querySelector("character_img");
+    let imgChar = document.getElementById("character_img").src;
     switch (randChar) {
         case 'Goku':
-            imgChar
+            imgChar.innerHTML = 
             break;
         case 'Luffy':
             imgChar
