@@ -10,4 +10,10 @@ const randPower = power[randNumberGen()];
 const ultimateAnimeWarrior = () => {
     console.log(`Your ultimate anime warrier is ${randChar} with the use of ${randItem} and the ability of ${randPower}!`);
 }
-ultimateAnimeWarrior();
+let element = document.querySelector("button");
+function generate (){
+    let message = document.querySelector("h3");
+    message.innerHTML = ultimateAnimeWarrior();
+}
+element.onclick = generate();
+
