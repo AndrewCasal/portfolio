@@ -17,3 +17,38 @@ function generate (){
 }
 element.onclick = generate();
 
+function charImage (){
+    let imgChar = document.querySelector("character_img");
+    switch (randChar) {
+        case 'Goku':
+            imgChar
+            break;
+        case 'Luffy':
+            imgChar
+            break;
+        case 'Naruto':
+            imgChar
+            break;
+        case 'Ichigo':
+            imgChar
+            break;
+        case 'Eren Jaeger':
+            imgChar
+            break;
+        case 'Deku':
+            imgChar
+            break;
+        case 'Yusuke':
+            imgChar
+            break;
+        case 'Saitama':
+            imgChar
+            break;
+        case 'Jotaro Kujo':
+            imgChar
+            break;
+        case 'Meliodas':
+            imgChar
+            break;
+    }
+}
