@@ -10,45 +10,47 @@ const randPower = power[randNumberGen()];
 const ultimateAnimeWarrior = () => {
     console.log(`Your ultimate anime warrier is ${randChar} with the use of ${randItem} and the ability of ${randPower}!`);
 }
-let element = document.querySelector("button");
-function generate (){
-    let message = document.querySelector("h3");
-    message.innerHTML = ultimateAnimeWarrior();
-}
-element.onclick = generate();
 
 function charImage (){
     let imgChar = document.getElementById("character_img").src;
     switch (randChar) {
         case 'Goku':
-            imgChar.innerHTML = 
+            imgChar.innerHTML = /images/characters/goku.jpg;
             break;
         case 'Luffy':
-            imgChar
+            imgChar.innerHTML = /images/characters/luffy.png;
             break;
         case 'Naruto':
-            imgChar
+            imgChar.innerHTML = /images/characters/naruto.jpg;
             break;
         case 'Ichigo':
-            imgChar
+            imgChar.innerHTML = /images/characters/ichigo.png;
             break;
         case 'Eren Jaeger':
-            imgChar
+            imgChar.innerHTML = /images/characters/eren_jaeger.jpg;
             break;
         case 'Deku':
-            imgChar
+            imgChar.innerHTML = /images/characters/deku.png;
             break;
         case 'Yusuke':
-            imgChar
+            imgChar.innerHTML = /images/characters/yusuke.png;
             break;
         case 'Saitama':
-            imgChar
+            imgChar.innerHTML = /images/characters/saitama.png;
             break;
         case 'Jotaro Kujo':
-            imgChar
+            imgChar.innerHTML = /images/characters/jotaro_kujo.jpg;
             break;
         case 'Meliodas':
-            imgChar
+            imgChar.innerHTML = /images/characters/meliodas.png;
             break;
     }
 }
+
+let element = document.querySelector("button");
+
+function generate (){
+    let message = document.querySelector("h3");
+    message.innerHTML = ultimateAnimeWarrior();
+}
+element.onclick = generate();
