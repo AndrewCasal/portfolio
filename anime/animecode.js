@@ -52,35 +52,35 @@ function charImage (){
 function powerImage (){
     let imgPower = document.getElementById("power_img");
     switch (randPower) {
-        case :
-            imgPower.src = "";
+        case 'Super Saiyan':
+            imgPower.src = "./images/powers/super_saiyan.jpg";
             break;
-        case :
-            imgPower.src = "";
+        case 'Haki':
+            imgPower.src = "./images/powers/haki.jpg";
             break;
-        case :
-            imgPower.src = "";
+        case 'Biguu Mode':
+            imgPower.src = "./images/powers/bijuu_mode";
             break;
-        case :
-            imgPower.src = "";
+        case 'Final Hollowification':
+            imgPower.src = "./images/powers/final_hollowification.jpg";
             break;
-        case :
-            imgPower.src = "";
+        case 'Attack Titan Form':
+            imgPower.src = "./images/powers/attack_titan.png";
             break;
-        case :
-            imgPower.src = "";
+        case 'One for All':
+            imgPower.src = "./images/powers/one_for_all.jpg";
             break;
-        case :
-            imgPower.src = "";
+        case 'Spirit Gun':
+            imgPower.src = "./images/powers/spirit_gun.png";
             break;
-        case :
-            imgPower.src = "";
+        case 'Destroy with One Punch':
+            imgPower.src = "./images/powers/one_punch.jpg";
             break;
-        case :
-            imgPower.src = "";
+        case 'Hamon':
+            imgPower.src = "./images/powers/hamon.png";
             break;
-        case :
-            imgPower.src = "";
+        case 'Sunshine':
+            imgPower.src = "./images/powers/sunshine.jpg";
             break;
     }
 }
