@@ -87,36 +87,36 @@ function powerImage (){
 
 function itemImage (){
     let imgItem = document.getElementById("item_img");
-    switch (randPower) {
-        case :
-            imgPower.src = "";
+    switch (randItem) {
+        case 'Dragon Balls':
+            imgPower.src = "./images/items/dragon_balls.png";
             break;
-        case :
-            imgPower.src = "";
+        case 'Devil Fruit':
+            imgPower.src = "./images/items/devil_fruit.png";
             break;
-        case :
-            imgPower.src = "";
+        case 'Kunai':
+            imgPower.src = "./images/items/hunai.png";
             break;
-        case :
-            imgPower.src = "";
+        case 'Substitute Shinigami Badge':
+            imgPower.src = "./images/items/shinigami_badge.png";
             break;
-        case :
-            imgPower.src = "";
+        case 'Omni-Directional Mobility Gear':
+            imgPower.src = "./images/items/mobility_gear.png";
             break;
-        case :
-            imgPower.src = "";
+        case 'Grenade Bracer':
+            imgPower.src = "./images/items/grenade_bracer.png";
             break;
-        case :
-            imgPower.src = "";
+        case 'Spirit Sword':
+            imgPower.src = "./images/items/spirit_sword.png";
             break;
-        case :
-            imgPower.src = "";
+        case "Child Emporer's Backpack":
+            imgPower.src = "./images/items/backpack.jpg";
             break;
-        case :
-            imgPower.src = "";
+        case 'Star Platinum':
+            imgPower.src = "./images/items/star_platinum.jpg";
             break;
-        case :
-            imgPower.src = "";
+        case 'Spirit Spear Chastiefol':
+            imgPower.src = "./images/items/chastiefol.png";
             break;
     }
 }
@@ -127,5 +127,7 @@ function generate (){
     let message = document.querySelector("h3");
     message.innerHTML = ultimateAnimeWarrior();
     charImage();
+    powerImage();
+    itemImage();
 }
 element.onclick = generate();
