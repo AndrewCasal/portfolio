@@ -14,37 +14,37 @@ const ultimateAnimeWarrior = () => {
 }
 
 function charImage (){
-    let imgChar = document.getElementById("character_img").src;
+    let imgChar = document.getElementById("character_img");
     switch (randChar) {
         case 'Goku':
-            imgChar.innerHTML = "/images/characters/goku.jpg";
+            imgChar.src = "/images/characters/goku.jpg";
             break;
         case 'Luffy':
-            imgChar.innerHTML = "/images/characters/luffy.png";
+            imgChar.src = "/images/characters/luffy.png";
             break;
         case 'Naruto':
-            imgChar.innerHTML = "/images/characters/naruto.jpg";
+            imgChar.src = "/images/characters/naruto.jpg";
             break;
         case 'Ichigo':
-            imgChar.innerHTML = "/images/characters/ichigo.png";
+            imgChar.src = "/images/characters/ichigo.png";
             break;
         case 'Eren Jaeger':
-            imgChar.innerHTML = "/images/characters/eren_jaeger.jpg";
+            imgChar.src = "/images/characters/eren_jaeger.jpg";
             break;
         case 'Deku':
-            imgChar.innerHTML = "/images/characters/deku.png";
+            imgChar.src = "/images/characters/deku.png";
             break;
         case 'Yusuke':
-            imgChar.innerHTML = "/images/characters/yusuke.png";
+            imgChar.src = "/images/characters/yusuke.png";
             break;
         case 'Saitama':
-            imgChar.innerHTML = "/images/characters/saitama.png";
+            imgChar.src = "/images/characters/saitama.png";
             break;
         case 'Jotaro Kujo':
-            imgChar.innerHTML = "/images/characters/jotaro_kujo.jpg";
+            imgChar.src = "/images/characters/jotaro_kujo.jpg";
             break;
         case 'Meliodas':
-            imgChar.innerHTML = "/images/characters/meliodas.png";
+            imgChar.src = "/images/characters/meliodas.png";
             break;
     }
 }
