@@ -9,10 +9,6 @@ const randChar = char[randNumberGen()];
 const randItem = item[randNumberGen()];
 const randPower = power[randNumberGen()];
 
-const ultimateAnimeWarrior = () => {
-    console.log(`Your ultimate anime warrier is ${randChar} with the use of ${randItem} and the ability of ${randPower}!`);
-}
-
 function charImage (){
     let imgChar = document.getElementById("character_img");
     switch (randChar) {
@@ -121,13 +117,14 @@ function itemImage (){
     }
 }
 
-let element = document.querySelector("button");
+let element = document.getElementById("button");
 
 function generate (){
-    let message = document.querySelector("h3");
-    message.innerHTML = ultimateAnimeWarrior();
+    let message = document.getElementById("h3");
+    message.innerHTML = `Your ultimate anime warrier is ${randChar} with the use of ${randItem} and the ability of ${randPower}!`
     charImage();
     powerImage();
     itemImage();
+    element.innerHTML = 'Generate Another!';
 }
 element.onclick = generate();
