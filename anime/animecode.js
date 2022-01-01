@@ -49,6 +49,78 @@ function charImage (){
     }
 }
 
+function powerImage (){
+    let imgPower = document.getElementById("power_img");
+    switch (randPower) {
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+    }
+}
+
+function itemImage (){
+    let imgItem = document.getElementById("item_img");
+    switch (randPower) {
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+        case :
+            imgPower.src = "";
+            break;
+    }
+}
+
 let element = document.querySelector("button");
 
 function generate (){
