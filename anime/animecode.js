@@ -54,5 +54,6 @@ let element = document.querySelector("button");
 function generate (){
     let message = document.querySelector("h3");
     message.innerHTML = ultimateAnimeWarrior();
+    charImage();
 }
 element.onclick = generate();
