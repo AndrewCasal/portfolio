@@ -127,4 +127,4 @@ function generate (){
     itemImage();
     element.innerHTML = 'Generate Another!';
 }
-element.onclick = generate();
+element.onclick = generate;
