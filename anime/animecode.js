@@ -55,7 +55,7 @@ function powerImage (){
             imgPower.src = "./images/powers/haki.jpg";
             break;
         case 'Biguu Mode':
-            imgPower.src = "./images/powers/bijuu_mode";
+            imgPower.src = "./images/powers/bijuu_mode.jpg";
             break;
         case 'Final Hollowification':
             imgPower.src = "./images/powers/final_hollowification.jpg";
@@ -91,7 +91,7 @@ function itemImage (){
             imgPower.src = "./images/items/devil_fruit.png";
             break;
         case 'Kunai':
-            imgPower.src = "./images/items/hunai.png";
+            imgPower.src = "./images/items/kunai.png";
             break;
         case 'Substitute Shinigami Badge':
             imgPower.src = "./images/items/shinigami_badge.png";
