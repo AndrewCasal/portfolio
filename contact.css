@@ -53,6 +53,9 @@ form {
     display: flex;
     flex-direction: column;
 }
+#description {
+    height: 100px;
+}
 label {
     padding-bottom: 10px;
     padding-top: 10px;
