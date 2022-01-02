@@ -5,9 +5,9 @@ let power = ['Super Saiyan', 'Haki', 'Biguu Mode', 'Final Hollowification', 'Att
 const randNumberGen = () => {
     return Math.floor(Math.random() * 10);
 }
-const randChar = char[randNumberGen()];
-const randItem = item[randNumberGen()];
-const randPower = power[randNumberGen()];
+let randChar = char[randNumberGen()];
+let randItem = item[randNumberGen()];
+let randPower = power[randNumberGen()];
 
 function charImage (){
     let imgChar = document.getElementById("character_img");
