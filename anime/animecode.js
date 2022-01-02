@@ -3,7 +3,7 @@ let item = ['Dragon Balls', 'Devil Fruit', 'Kunai', 'Substitute Shinigami Badge'
 let power = ['Super Saiyan', 'Haki', 'Biguu Mode', 'Final Hollowification', 'Attack Titan Form', 'One for All', 'Spirit Gun', 'Destroy with One Punch', 'Hamon', 'Sunshine'];
 
 const randNumberGen = () => {
-    return Math.floor(Math.random() * 10) - 1
+    return Math.floor(Math.random() * 10);
 }
 const randChar = char[randNumberGen()];
 const randItem = item[randNumberGen()];
@@ -85,34 +85,34 @@ function itemImage (){
     let imgItem = document.getElementById("item_img");
     switch (randItem) {
         case 'Dragon Balls':
-            imgPower.src = "./images/items/dragon_balls.png";
+            imgItem.src = "./images/items/dragon_balls.png";
             break;
         case 'Devil Fruit':
-            imgPower.src = "./images/items/devil_fruit.png";
+            imgItem.src = "./images/items/devil_fruit.png";
             break;
         case 'Kunai':
-            imgPower.src = "./images/items/kunai.png";
+            imgItem.src = "./images/items/kunai.png";
             break;
         case 'Substitute Shinigami Badge':
-            imgPower.src = "./images/items/shinigami_badge.png";
+            imgItem.src = "./images/items/shinigami_badge.png";
             break;
         case 'Omni-Directional Mobility Gear':
-            imgPower.src = "./images/items/mobility_gear.png";
+            imgItem.src = "./images/items/mobility_gear.png";
             break;
         case 'Grenade Bracer':
-            imgPower.src = "./images/items/grenade_bracer.png";
+            imgItem.src = "./images/items/grenade_bracer.png";
             break;
         case 'Spirit Sword':
-            imgPower.src = "./images/items/spirit_sword.png";
+            imgItem.src = "./images/items/spirit_sword.png";
             break;
         case "Child Emporer's Backpack":
-            imgPower.src = "./images/items/backpack.jpg";
+            imgItem.src = "./images/items/backpack.jpg";
             break;
         case 'Star Platinum':
-            imgPower.src = "./images/items/star_platinum.jpg";
+            imgItem.src = "./images/items/star_platinum.jpg";
             break;
         case 'Spirit Spear Chastiefol':
-            imgPower.src = "./images/items/chastiefol.png";
+            imgItem.src = "./images/items/chastiefol.png";
             break;
     }
 }
