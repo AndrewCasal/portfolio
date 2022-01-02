@@ -120,7 +120,7 @@ function itemImage (){
 let element = document.getElementById("button");
 
 function generate (){
-    let message = document.getElementById("h3");
+    let message = document.getElementById("resultText");
     message.innerHTML = `Your ultimate anime warrier is ${randChar} with the use of ${randItem} and the ability of ${randPower}!`
     charImage();
     powerImage();
