@@ -121,10 +121,19 @@ let element = document.getElementById("initiate");
 
 function generate (){
     let message = document.getElementById("resultText");
-    message.innerHTML = `Your ultimate anime warrier is ${randChar} with the ability of ${randPower} and the use of ${randItem}!`
-    charImage();
-    powerImage();
-    itemImage();
-    element.innerHTML = 'Generate Another!';
+    if (element.innerHTML === 'Click now!') {
+        message.innerHTML = `Your ultimate anime warrier is ${randChar} with the ability of ${randPower} and the use of ${randItem}!`
+        charImage();
+        powerImage();
+        itemImage();
+        element.innerHTML = 'Generate Another!';
+    }
+    else {
+        message.innerHTML = '';
+        document.getElementById("character_img").src = "";
+        document.getElementById("power_img").src = "";
+        document.getElementById("item_img").src = "";
+        element.innerHTML = 'Click now!';
+    }
 }
-element.onclick = generate;
+element.addEventListener('click', generate);
