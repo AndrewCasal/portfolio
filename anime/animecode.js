@@ -117,7 +117,7 @@ function itemImage (){
     }
 }
 
-let element = document.getElementById("button");
+let element = document.getElementById("initiate");
 
 function generate (){
     let message = document.getElementById("resultText");
