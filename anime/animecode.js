@@ -121,7 +121,7 @@ let element = document.getElementById("button");
 
 function generate (){
     let message = document.getElementById("resultText");
-    message.innerHTML = `Your ultimate anime warrier is ${randChar} with the use of ${randItem} and the ability of ${randPower}!`
+    message.innerHTML = `Your ultimate anime warrier is ${randChar} with the ability of ${randPower} and the use of ${randItem}!`
     charImage();
     powerImage();
     itemImage();
