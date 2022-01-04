@@ -5,9 +5,7 @@ let power = ['Super Saiyan', 'Haki', 'Biguu Mode', 'Final Hollowification', 'Att
 let randNumberGen = () => {
     return Math.floor(Math.random() * 10);
 }
-let randChar = char[randNumberGen()];
-let randItem = item[randNumberGen()];
-let randPower = power[randNumberGen()];
+let randChar, randItem, randPower;
 
 function charImage (){
     let imgChar = document.getElementById("character_img");
@@ -121,6 +119,9 @@ let element = document.getElementById("initiate");
 
 function generate (){
     let message = document.getElementById("resultText");
+    let randChar = char[randNumberGen()];
+    let randItem = item[randNumberGen()];
+    let randPower = power[randNumberGen()];
     if (element.innerHTML === 'Click now!') {
         message.innerHTML = `Your ultimate anime warrier is ${randChar} with the ability of ${randPower} and the use of ${randItem}!`
         charImage();
