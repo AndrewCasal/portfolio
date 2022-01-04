@@ -136,4 +136,4 @@ function generate (){
         element.innerHTML = 'Click now!';
     }
 }
-element.addEventListener('click', generate);
+element.onclick = generate;
