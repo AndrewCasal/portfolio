@@ -119,9 +119,9 @@ let element = document.getElementById("initiate");
 
 function generate (){
     let message = document.getElementById("resultText");
-    let randChar = char[randNumberGen()];
-    let randItem = item[randNumberGen()];
-    let randPower = power[randNumberGen()];
+    randChar = char[randNumberGen()];
+    randItem = item[randNumberGen()];
+    randPower = power[randNumberGen()];
     if (element.innerHTML === 'Click now!') {
         message.innerHTML = `Your ultimate anime warrier is ${randChar} with the ability of ${randPower} and the use of ${randItem}!`
         charImage();
