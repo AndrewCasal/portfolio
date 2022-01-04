@@ -5,6 +5,28 @@ h1 {
     font-family: 'permanent marker', georgia;
     font-size: 50px;
 }
+#results {
+    display: grid;
+    grid-area: 1 / 1 / 3 / 4;
+    grid-template: 80% 20% / 1fr 1fr 1fr;
+    width: 100%;
+}
+#warrior, #ability, #tool {
+    width: 600px;
+    height: 800px;
+}
+#character_img, #power_img, #item_img {
+    background-color: white;
+    width: 100%;
+}
 h1, h2, #results {
     text-align: center;
+}
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 1000px;
 }
