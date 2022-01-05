@@ -26,6 +26,10 @@ h1, h2, #results {
 }
 #proj_desc {
     display: flex;
+    justify-content: center;
+}
+#proj_box {
+    display: flex;
     flex-direction: column;
     text-align: center;
     position: fixed;
