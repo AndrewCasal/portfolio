@@ -24,11 +24,16 @@ h1 {
 h1, h2, #results {
     text-align: center;
 }
-footer {
+#proj_desc {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     position: fixed;
     bottom: 0;
     background-color: lightgray;
     border: 1px solid black;
-    width: 1000px;
+    width: 1500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
 }
