@@ -123,3 +123,29 @@ footer h1 {
     font-family: 'titillium web', georgia;
     font-size: 50px;
 }
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+    nav {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    #desc {
+        height: 400px;
+    }
+    #about img {
+        height: 400px;
+    }
+    #desc p {
+        font-size: 25px;
+    }
+    #projects {
+        grid-template-rows: 100px 20px 250px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    ul {
+        font-size: 20px;
+    }
+}
