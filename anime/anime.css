@@ -39,6 +39,7 @@ button {
     height: 800px;
     background-color: white;
     font-family: 'permanent marker', georgia;
+    font-size: 25px;
 }
 #character_img, #power_img, #item_img {
     grid-row: 1 / 2;
