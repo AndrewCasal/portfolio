@@ -24,6 +24,11 @@ button {
     background-color: dodgerblue;
     border: 2px dashed black;
 }
+#resultText {
+    height: 50px;
+    font-family: 'permanent marker', georgia;
+    font-size: 25px;
+}
 #result_col {
     display: grid;
     grid-area: 1 / 1 / 3 / 4;
