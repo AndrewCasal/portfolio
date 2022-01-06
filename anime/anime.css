@@ -9,12 +9,20 @@ h1 {
     font-size: 50px;
 }
 #generator {
+    display: flex;
+    flex-direction: column;
     font-family: 'permanent marker', georgia;
     font-size: 25px;
+    margin-bottom: 25px;
+    align-items: center;
 }
 button {
     font-family: 'josefin sans', tahoma;
     font-size: 25px;
+    padding: 10px;
+    width: 250px;
+    background-color: dodgerblue;
+    border: 2px dashed black;
 }
 #results {
     display: grid;
