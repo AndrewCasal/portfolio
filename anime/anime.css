@@ -50,9 +50,9 @@ button {
     grid-row: 1 / 2;
     background-color: white;
     width: 100%;
-    max-height: 700px;
+    max-height: 750px;
     overflow: hidden;
-    margin: 5px;
+    padding: 5px;
 }
 h1, h2, #results {
     text-align: center;
