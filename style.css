@@ -124,9 +124,8 @@ footer h1 {
     font-size: 50px;
 }
 @media only screen and (max-width: 480px) {
-    h1 {
+    header h1, footer h1 {
         font-size: 20px;
-        font-family: georgia;
     }
     header, footer {
         grid-template-columns: 70% 30%;
@@ -144,7 +143,6 @@ footer h1 {
     #about {
         margin-left: 10px;
         margin-right: 10px;
-        width: 100%;
     }
     #desc {
         margin: 5px;
