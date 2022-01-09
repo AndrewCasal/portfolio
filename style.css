@@ -140,9 +140,9 @@ footer h1 {
         grid-template-rows: 110px 20px 250px;
     }
 }
-@media only screen and (max-width: 1366px) and (max-height: 768px) {
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
     nav {
-        font-size: 20px;
+        font-size: 16px;
     }
     h2 {
         font-size: 30px;
@@ -154,7 +154,7 @@ footer h1 {
         height: 400px;
     }
     #desc p {
-        font-size: 25px;
+        font-size: 20px;
     }
     #projects {
         grid-template-rows: 100px 20px 250px;
