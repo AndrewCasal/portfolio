@@ -123,12 +123,9 @@ footer h1 {
     font-family: 'titillium web', georgia;
     font-size: 50px;
 }
-@media only screen and (max-width: 1536px) and (max-height: 864px) {
+@media only screen and (max-width: 1600px) {
     nav {
         font-size: 25px;
-    }
-    h2 {
-        font-size: 35px;
     }
     #desc {
         height: 400px;
