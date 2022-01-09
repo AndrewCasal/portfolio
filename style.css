@@ -1,7 +1,7 @@
 html, body {
     background-color: #ccc;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     min-height: 100%;
 }
 header {
@@ -123,46 +123,34 @@ footer h1 {
     font-family: 'titillium web', georgia;
     font-size: 50px;
 }
-@media only screen and (max-width: 1600px) {
-    nav {
-        font-size: 25px;
-    }
-    #desc {
-        height: 400px;
-    }
-    #about img {
-        height: 400px;
-    }
-    #desc p {
-        font-size: 25px;
-    }
-    #projects {
-        grid-template-rows: 110px 20px 250px;
-    }
-}
-@media only screen and (max-width: 1024px) and (orientation: landscape) {
-    nav {
-        font-size: 16px;
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        font-family: georgia;
     }
     h2 {
-        font-size: 30px;
+        font-size: 20px;
+    }
+    nav {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    nav p {
+        margin: 5px;
+    }
+    #about {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
     }
     #desc {
-        height: 400px;
-    }
-    #about img {
-        height: 400px;
+        margin: 5px;
+        height: 500px;
     }
     #desc p {
-        font-size: 20px;
+        font-size: 16px;
     }
-    #projects {
-        grid-template-rows: 100px 20px 250px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    ul {
-        font-size: 20px;
+    #about img {
+        height: 200px;
     }
 }
