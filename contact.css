@@ -97,4 +97,13 @@ footer h1 {
     nav p {
         margin: 5px;
     }
+    #coninfo {
+        padding-top: 200px;
+    }
+    #form_cont {
+        width: 400px;
+    }
+    label {
+        font-weight: bold;
+    }
 }
