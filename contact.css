@@ -116,3 +116,16 @@ footer h1 {
         padding-top: 200px;
     }
 }
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    header h1, footer h1 {
+        font-size: 40px;
+    }
+    header, footer {
+        grid-template-columns: 70% 30%;
+    }
+    nav {
+        font-size: 25px;
+    }
+    #coninfo {
+        padding-top: 200px;
+    }
