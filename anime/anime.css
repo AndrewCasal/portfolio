@@ -100,3 +100,32 @@ h1, h2, #results {
     #character_img, #power_img, #item_img {
         width: 350px;
     }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        height: 35px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    #resultText {
+        font-size: 25px;
+        height: 30px;
+    }
+    #result_col {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    #warrior, #ability, #tool {
+        width: 500px;
+        margin-top: 10px;
+    }
+    #character_img, #power_img, #item_img {
+        width: 450px;
+    }
+}
