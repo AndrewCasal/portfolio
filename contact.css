@@ -129,3 +129,9 @@ footer h1 {
     #coninfo {
         padding-top: 200px;
     }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+    header, footer {
+        grid-template-columns: 70% 30%;
+    }
+}
