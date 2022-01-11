@@ -49,10 +49,10 @@ button {
 #character_img, #power_img, #item_img {
     grid-row: 1 / 2;
     width: 550px;
-    height: 750px;
+    height: 725px;
     overflow: hidden;
     padding: 5px;
-    align-items: center;
+    align-content: center;
 }
 h1, h2, #results {
     text-align: center;
