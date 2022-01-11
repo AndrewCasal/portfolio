@@ -46,16 +46,13 @@ button {
     font-family: 'permanent marker', georgia;
     font-size: 25px;
 }
-#warrior p, #ability p, #tool p {
-    height: 30px;
-}
 #character_img, #power_img, #item_img {
     grid-row: 1 / 2;
     width: 550px;
     height: 700px;
     overflow: hidden;
     padding: 5px;
-    justify-items: center;
+    text-align: center;
 }
 h1, h2, #results {
     text-align: center;
