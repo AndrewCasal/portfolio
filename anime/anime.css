@@ -48,10 +48,11 @@ button {
 }
 #character_img, #power_img, #item_img {
     grid-row: 1 / 2;
-    max-width: 550px;
-    max-height: 750px;
+    width: 550px;
+    height: 750px;
     overflow: hidden;
     padding: 5px;
+    align-items: center;
 }
 h1, h2, #results {
     text-align: center;
