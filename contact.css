@@ -82,3 +82,19 @@ footer h1 {
     font-family: 'titillium web', georgia;
     font-size: 50px;
 }
+@media only screen and (max-width: 480px) {
+    header h1, footer h1 {
+        font-size: 20px;
+    }
+    header, footer {
+        grid-template-columns: 80% 20%;
+        width: 100%;
+    }
+    nav {
+        font-size: 16px;
+        padding-right: 40px;
+    }
+    nav p {
+        margin: 5px;
+    }
+}
