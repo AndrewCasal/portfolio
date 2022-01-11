@@ -157,3 +157,12 @@ h1, h2, #results {
         width: 550px;
     }
 }
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+    #warrior, #ability, #tool {
+        width: 500px;
+        margin-top: 10px;
+    }
+    #character_img, #power_img, #item_img {
+        width: 450px;
+    }
+}
