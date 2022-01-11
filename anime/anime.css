@@ -129,3 +129,31 @@ h1, h2, #results {
         width: 450px;
     }
 }
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    header {
+        height: 45px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    #resultText {
+        font-size: 35px;
+        height: 40px;
+    }
+    #result_col {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    #warrior, #ability, #tool {
+        width: 600px;
+        margin-top: 10px;
+    }
+    #character_img, #power_img, #item_img {
+        width: 550px;
+    }
+}
