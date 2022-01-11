@@ -83,12 +83,19 @@ h1, h2, #results {
     h2 {
         font-size: 20px;
     }
+    #resultText {
+        font-size: 20px;
+        height: 25px;
+    }
     #result_col {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
     #warrior, #ability, #tool {
         width: 400px;
+        margin-top: 10px;
     }
     #character_img, #power_img, #item_img {
         width: 350px;
