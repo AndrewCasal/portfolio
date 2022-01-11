@@ -36,6 +36,7 @@ button {
     width: 100%;
     margin-left: 10px;
     margin-right: 10px;
+    justify-content: center;
 }
 #warrior, #ability, #tool {
     display: grid;
@@ -52,7 +53,6 @@ button {
     height: 700px;
     overflow: hidden;
     padding: 5px;
-    text-align: center;
 }
 h1, h2, #results {
     text-align: center;
