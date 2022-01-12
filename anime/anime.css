@@ -94,6 +94,7 @@ h1, h2, #results {
         flex-direction: column;
         width: 100%;
         align-items: center;
+        padding-top: 10px;
     }
     #warrior, #ability, #tool {
         width: 400px;
@@ -122,6 +123,7 @@ h1, h2, #results {
         flex-direction: column;
         width: 100%;
         align-items: center;
+        padding-top: 10px;
     }
     #warrior, #ability, #tool {
         width: 500px;
@@ -150,6 +152,7 @@ h1, h2, #results {
         flex-direction: column;
         width: 100%;
         align-items: center;
+        padding-top: 25px;
     }
     #warrior, #ability, #tool {
         width: 600px;
